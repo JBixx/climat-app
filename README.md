@@ -5,32 +5,6 @@ Elle est composée de deux parties :
 - **Backend** (API REST en Node.js avec Express & SQLite)  
 - **Frontend** (interface utilisateur en React/Vite)  
 
----
-
-## 📂 Structure du projet
-
-climat-app/
-│
-├── backend/ # API REST (Express + SQLite)
-│ ├── server.js # Point d'entrée du serveur
-│ ├── events.db # Base de données SQLite (générée automatiquement)
-│ ├── package.json # Dépendances backend
-│ └── ...
-│
-├── frontend/ # Application React (Vite ou CRA)
-│ ├── src/ # Code source React
-│ ├── public/ # Assets publics
-│ ├── package.json # Dépendances frontend
-│ └── ...
-│
-├── .gitignore
-├── package-lock.json
-└── README.md
-
-yaml
-Copier le code
-
----
 
 ## 🚀 Installation
 
@@ -38,20 +12,20 @@ Copier le code
 ```sh
 git clone https://github.com/JBixx/climat-app.git
 cd climat-app
+
 2. Installer et lancer le backend
-sh
-Copier le code
+
 cd backend
 npm install
 npm start
 Le backend démarre sur : http://localhost:4000
 
 3. Installer et lancer le frontend
-sh
-Copier le code
+
 cd frontend
 npm install
 npm run dev
+
 Le frontend démarre sur : http://localhost:5173 (par défaut avec Vite).
 
 📦 Dépendances principales
