@@ -1,0 +1,26 @@
+# Node.js (frontend et backend si Node)
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+
+# Python (si backend en Python)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.env
+venv/
+.env.local
+.env.*.local
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+logs
+*.log
